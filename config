@@ -1,0 +1,56 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT v4 (Laptop)  - Top ### //
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": true,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+"background": "rgba(30, 30, 30, 0.8)",
+
+"modules-left": [
+	"group/app_drawer",
+	"custom/separator#dot-line",
+	"group/mobo_drawer",
+	"custom/separator#line",
+	"custom/weather",
+	],
+
+  //#kanji 
+"modules-center": [
+	"custom/swaync",
+	"custom/cava_mviz",
+	"custom/separator#dot-line",
+	"clock",
+	"custom/separator#line",
+	"hyprland/window#workspaces",
+	"custom/separator#dot-line",
+	"idle_inhibitor",	
+	"custom/hint",	
+	], 
+
+//  	"network#speed",
+//	"group/connections",
+
+"modules-right": [
+	"custom/separator#line",
+	"tray",
+	"mpris", 
+	"group/audio",
+	"custom/separator#dot-line",
+	"group/status",
+	],
+}
