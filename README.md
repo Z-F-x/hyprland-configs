@@ -1,4 +1,4 @@
-This is my backups for Hyprland configs. Installed from: `https://github.com/JaKooLit/Arch-Hyprland`
+This is my backups for Hyprland configs. Original setup from: `https://github.com/JaKooLit/Arch-Hyprland`
 
 ![bilde](https://github.com/user-attachments/assets/1b80f75e-55db-4124-ad28-34eb54d2552c)
 
